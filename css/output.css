@@ -6665,6 +6665,10 @@ video {
   width: 24rem;
 }
 
+.w-38rem {
+  width: 38rem;
+}
+
 .w-auto {
   width: auto;
 }
