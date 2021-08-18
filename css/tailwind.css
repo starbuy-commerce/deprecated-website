@@ -8,3 +8,9 @@
     font-family: 'Roboto';
     src: local('Roboto'), url(./fonts/Roboto-Regular.ttf) format('ttf');
 }
+
+@layer components {
+    .nav-btn {
+        @apply ml-3 pt-2 md:pt-2 md:pr-10;
+    }
+}
