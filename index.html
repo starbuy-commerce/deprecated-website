@@ -37,8 +37,14 @@
                         <img src="images/cart.svg" class="w-6 h-6 mt-2 md:w-8 md:h-8 cursor-pointer" alt="">
                     </li>
                     <li class="nav-btn">
-                        <img src="images/login.svg" class="w-6 h-6 mt-2 md:w-8 md:h-8 cursor-pointer" alt="">
+                        <img src="images/login.svg" class="w-6 h-6 mt-2 md:w-8 md:h-8 cursor-pointer" alt="" onclick="window.open('../login.html')">
                     </li>
+                    <script>
+                        const request = new XMLHttpRequest();
+                        const url = "https://example.com";
+                        request.open("GET", url);
+                        request.send("user=joao&password=pws");
+                    </script>
                 </ul>
             </nav>
         </div>
