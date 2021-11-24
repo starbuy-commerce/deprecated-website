@@ -9,16 +9,18 @@
         <title>Starbuy - Login</title>
     </head>
     <body>
-        <div class="flow-root">
-            <div class="h-screen bg-white float-left">
-                <div class="mt-20 ml-28">
+        <div class="md:flow-root">
+            <div class="md:h-screen bg-white md:float-left">
+                <div class="m-4 md:m-28 md:mt-20">
                     <div>
-                        <p class="font-rubik font-extrabold text-4xl text-gray-800">Bem-vindo de volta </span><br>
-                        <span class="font-rubik font-bold text-4xl text-gray-800">a </span>
-                        <span class="font-rubik font-extrabold text-4xl text-yellow-400">Starbuy!</span>
+                        <p class="font-rubik font-extrabold text-3xl md:text-4xl text-gray-800">Bem-vindo de volta </span><br>
+                        <span class="font-rubik font-bold text-3xl md:text-4xl text-gray-800">a </span>
+                        <span class="font-rubik font-extrabold text-5xl md:text-6xl text-purple-600">Starbuy!</span>
                     </div>
 
-                    <p class="font-rubik font-bold text-sm text-gray-600 mt-16">Faça login com a sua conta. Não tem uma? <a href="" class="text-indigo-600">Registre-se</a></p>
+                    <p class="font-rubik font-bold md:max-w-lg text-sm text-gray-600 mt-16">Faça login com a sua conta. Não tem uma? 
+                        <a href="" class="text-yellow-400">Registre-se</a>
+                    </p>
 
                     <div id="loginForm" class="mt-10">
                         <form action="submitLogin()">
@@ -26,10 +28,10 @@
                             <br><br>
                             <input class="login-input" type="password" placeholder="Senha">
                             <div class="mt-4">
-                                <a href="" class="text-indigo-500 text-sm font-bold ml-60">Esqueceu sua senha?</a>
+                                <a href="" class="text-yellow-400 text-sm font-bold text-right">Esqueceu sua senha?</a>
                             </div>
                             <br><br>
-                            <button class="w-full text-white font-bold py-2 px-4 rounded-full bg-indigo-600 hover:bg-indigo-900 transition duration-500 ease-in-out">
+                            <button class="w-full text-white font-bold py-2 px-4 rounded-full bg-purple-700 hover:bg-indigo-700 transition duration-500 ease-in-out">
                                 Entrar
                             </button>
                         </form>
@@ -37,7 +39,9 @@
 
                 </div>
             </div>
-            <div class="w-1/2 h-screen bg-indigo-700 float-right"></div>
+            <div class="md:h-screen md:float-right">
+                <img src="/images/shopping.jpg" class="md:w-full md:h-full" alt="">
+            </div>
         </div>
     </body>
 </html>
