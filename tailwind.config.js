@@ -4,9 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
+        'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+        'ubuntu': ['Ubuntu'],
+        'montserrat': ['Montserrat'],
+        'inter': ['Inter'],
+        'rubik': ['Rubik']
       }
-    },
+    }
   },
   variants: {
     extend: {},
